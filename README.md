@@ -112,6 +112,7 @@ END:VCALENDAR
 
 #### Optional
 
+* **timezone** (String) _The timezone the event is set in. If not set, the timezone is calculated from the offset._
 * **method** (String) _The event method. For example, publish, request, reply, add, cancel, refresh, counter, and decline-counter_
 * **status** (String) _The event status. For example, cancelled, confirmed, tentative_
 * **location** (String) _The event location of the event. For example, monastery_
